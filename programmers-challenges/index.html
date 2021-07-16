@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>코딩테스트 연습 | 프로그래머스</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/dc7bf1e141.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="top-nav">
+      <div class="logo">
+        <a href="#">
+          <img
+            class="logo-mobile"
+            src="./assets/logo-mobile.png"
+            alt="mobile logo"
+          />
+        </a>
+        <a href="#">
+          <img
+            class="logo-desktop"
+            src="./assets/logo-desktop.png"
+            alt="desktop logo"
+          />
+        </a>
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="top-nav-global">
+        <li class="nav-global-item">
+          <a href="#"> 탑프로그래머스 </a>
+        </li>
+        <li class="nav-global-item">
+          <a href="#">실력체크</a>
+        </li>
+        <li class="nav-global-item">
+          <a href="#">개발자 채용</a>
+        </li>
+        <li class="nav-global-item">
+          <a href="#">테크 피드 </a>
+        </li>
+        <li class="divider"></li>
+        <li class="nav-global-item">
+          <a href="#">코딩테스트 연습</a>
+        </li>
+        <li class="nav-global-item">
+          <a href="#">프로그래밍 강의</a>
+        </li>
+      </ul>
+      <ul class="top-nav-user-menu">
+        <li class="user-menu-item resume">
+          <a href="#">
+            <i class="far fa-sticky-note"></i>
+          </a>
+        </li>
+        <li class="user-menu-item notification">
+          <a href="#"><i class="fas fa-bell"></i></a>
+        </li>
+        <li class="user-menu-item">
+          <a href="#"><i class="fas fa-user-circle"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <div class="challenges-tabs-wrap">
+      <ul class="nav-tabs">
+        <li class="nav-item">
+          <a class="active" href="#"
+            >코딩테스트 고득점 <span lang="en">Kit</span></a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="#">SQL 고득점 <span lang="en">Kit</span></a>
+        </li>
+        <li class="nav-item"><a href="#">모든 문제</a></li>
+      </ul>
+    </div>
+    <div class="main">
+      <div class="banner-wrap">
+        <div class="banner"></div>
+      </div>
+      <div class="challenge-container">
+        <div class="challenge-container-header">
+          <div class="col-left">
+            <h2 class="container-title">
+              코딩테스트 고득점 <span lang="en">Kit</span>
+            </h2>
+            <p class="container-desc">
+              코딩테스트에는 어떤 알고리즘/자료구조가 출제될까요? <br />
+              사람들은 어떤 문제를 어려워할까요? 국내에서 코딩테스트를 가장 많이
+              운영해온 프로그래머스 팀이
+              <strong>
+                코딩테스트 결과를 분석해서 만든 고득점
+                <span lang="en">Kit</span></strong
+              >.코딩테스트에 자주 나오는 유형, 사람들이 많이 틀리는 유형을
+              간추렸습니다.
+            </p>
+          </div>
+          <div class="col-right">
+            <img src="./assets/practice-kit.png" alt="practice kit" />
+          </div>
+        </div>
+        <ul class="card-list">
+          <li class="col-item">
+            <section class="challenge-card hash">
+              <a href="#">
+                <i class="fas fa-arrow-right"></i>
+                <h3 class="challenge-card-title">해시</h3>
+                <p class="challenge-card-desc">
+                  해시는 key-value쌍으로 데이터를 저장하는 자료구조입니다.
+                </p>
+                <dl class="card-label-group">
+                  <div class="card-label-item">
+                    <dt>출제빈도</dt>
+                    <dd>높음</dd>
+                  </div>
+                  <div class="card-label-item">
+                    <dt>평균 점수</dt>
+                    <dd>보통</dd>
+                  </div>
+                  <div class="card-label-item">
+                    <dt>문제 세트</dt>
+                    <dd>4 / 4</dd>
+                  </div>
+                </dl>
+              </a>
+            </section>
+          </li>
+          <li class="col-item">
+            <section class="challenge-card stack-queue">
+              <a href="#">
+                <i class="fas fa-arrow-right"></i>
+                <h3 class="challenge-card-title">스택/큐</h3>
+                <p class="challenge-card-desc">
+                  LIFO, FIFO, push &amp pop! 스택과 큐를 이용해서 문제를
+                  풀어보세요.
+                </p>
+                <dl class="card-label-group">
+                  <div class="card-label-item">
+                    <dt>출제빈도</dt>
+                    <dd>보통</dd>
+                  </div>
+                  <div class="card-label-item">
+                    <dt>평균 점수</dt>
+                    <dd>높음</dd>
+                  </div>
+                  <div class="card-label-item">
+                    <dt>문제 세트</dt>
+                    <dd>4 / 4</dd>
+                  </div>
+                </dl>
+              </a>
+            </section>
+          </li>
+          <li class="col-item">
+            <section class="challenge-card heap">
+              <a href="#">
+                <i class="fas fa-arrow-right"></i>
+                <h3 class="challenge-card-title">힙(Heap)</h3>
+                <p class="challenge-card-desc">
+                  힙은 특정한 규칙을 가지는 트리로, 힙을 이용해서 우선순위 큐를
+                  구현할 수 있습니다.
+                </p>
+                <dl class="card-label-group">
+                  <div class="card-label-item">
+                    <dt>출제빈도</dt>
+                    <dd>보통</dd>
+                  </div>
+                  <div class="card-label-item">
+                    <dt>평균 점수</dt>
+                    <dd>높음</dd>
+                  </div>
+                  <div class="card-label-item">
+                    <dt>문제 세트</dt>
+                    <dd>2 / 3</dd>
+                  </div>
+                </dl>
+              </a>
+            </section>
+          </li>
+          <li class="col-item">
+            <section class="challenge-card sort">
+              <a href="#">
+                <i class="fas fa-arrow-right"></i>
+                <h3 class="challenge-card-title">정렬</h3>
+                <p class="challenge-card-desc">
+                  정렬을 이용해서 문제를 효율적으로 풀어보세요.
+                </p>
+                <dl class="card-label-group">
+                  <div class="card-label-item">
+                    <dt>출제빈도</dt>
+                    <dd>높음</dd>
+                  </div>
+                  <div class="card-label-item">
+                    <dt>평균 점수</dt>
+                    <dd>높음</dd>
+                  </div>
+                  <div class="card-label-item">
+                    <dt>문제 세트</dt>
+                    <dd>3 / 3</dd>
+                  </div>
+                </dl>
+              </a>
+            </section>
+          </li>
+          <li class="col-item">
+            <section class="challenge-card brute-force">
+              <a href="#">
+                <i class="fas fa-arrow-right"></i>
+                <h3 class="challenge-card-title">완전탐색</h3>
+                <p class="challenge-card-desc">
+                  무식해 보여도 사실은 최고의 방법일 때가 있지요.
+                </p>
+                <dl class="card-label-group">
+                  <div class="card-label-item">
+                    <dt>출제빈도</dt>
+                    <dd>높음</dd>
+                  </div>
+                  <div class="card-label-item">
+                    <dt>평균 점수</dt>
+                    <dd>낮음</dd>
+                  </div>
+                  <div class="card-label-item">
+                    <dt>문제 세트</dt>
+                    <dd>3 / 3</dd>
+                  </div>
+                </dl>
+              </a>
+            </section>
+          </li>
+          <li class="col-item">
+            <section class="challenge-card greedy">
+              <a href="#">
+                <i class="fas fa-arrow-right"></i>
+                <h3 class="challenge-card-title">탐욕법(Greedy)</h3>
+                <p class="challenge-card-desc">
+                  부분적인 최적해가 전체적인 최적해가 되는 마법!
+                </p>
+                <dl class="card-label-group">
+                  <div class="card-label-item">
+                    <dt>출제빈도</dt>
+                    <dd>낮음</dd>
+                  </div>
+                  <div class="card-label-item">
+                    <dt>평균 점수</dt>
+                    <dd>낮음</dd>
+                  </div>
+                  <div class="card-label-item">
+                    <dt>문제 세트</dt>
+                    <dd>3 / 6</dd>
+                  </div>
+                </dl>
+              </a>
+            </section>
+          </li>
+          <li class="col-item">
+            <section class="challenge-card dynamic-programming">
+              <a href="#">
+                <i class="fas fa-arrow-right"></i>
+                <h3 class="challenge-card-title">
+                  동적계획법(Dynamic Programming)
+                </h3>
+                <p class="challenge-card-desc">
+                  불필요한 계산을 줄이고, 효율적으로 최적해를 찾아야만 풀리는
+                  문제들입니다.
+                </p>
+                <dl class="card-label-group">
+                  <div class="card-label-item">
+                    <dt>출제빈도</dt>
+                    <dd>낮음</dd>
+                  </div>
+                  <div class="card-label-item">
+                    <dt>평균 점수</dt>
+                    <dd>낮음</dd>
+                  </div>
+                  <div class="card-label-item">
+                    <dt>문제 세트</dt>
+                    <dd>4 / 4</dd>
+                  </div>
+                </dl>
+              </a>
+            </section>
+          </li>
+          <li class="col-item">
+            <section class="challenge-card dfs-bfs">
+              <a href="#">
+                <i class="fas fa-arrow-right"></i>
+                <h3 class="challenge-card-title">
+                  깊이/너비 우선 탐색(DFS/BFS)
+                </h3>
+                <p class="challenge-card-desc">
+                  깊이/너비 우선 탐색을 사용해 원하는 답을 찾아보세요.
+                </p>
+                <dl class="card-label-group">
+                  <div class="card-label-item">
+                    <dt>출제빈도</dt>
+                    <dd>높음</dd>
+                  </div>
+                  <div class="card-label-item">
+                    <dt>평균 점수</dt>
+                    <dd>낮음</dd>
+                  </div>
+                  <div class="card-label-item">
+                    <dt>문제 세트</dt>
+                    <dd>3 / 4</dd>
+                  </div>
+                </dl>
+              </a>
+            </section>
+          </li>
+          <li class="col-item">
+            <section class="challenge-card binary-search">
+              <a href="#">
+                <i class="fas fa-arrow-right"></i>
+                <h3 class="challenge-card-title">이분탐색</h3>
+                <p class="challenge-card-desc">
+                  이분탐색 기법을 이용해 효율적으로 값을 찾아보세요.
+                </p>
+                <dl class="card-label-group">
+                  <div class="card-label-item">
+                    <dt>출제빈도</dt>
+                    <dd>낮음</dd>
+                  </div>
+                  <div class="card-label-item">
+                    <dt>평균 점수</dt>
+                    <dd>낮음</dd>
+                  </div>
+                  <div class="card-label-item">
+                    <dt>문제 세트</dt>
+                    <dd>2 / 2</dd>
+                  </div>
+                </dl>
+              </a>
+            </section>
+          </li>
+          <li class="col-item">
+            <section class="challenge-card graph">
+              <a href="#">
+                <i class="fas fa-arrow-right"></i>
+                <h3 class="challenge-card-title">그래프</h3>
+                <p class="challenge-card-desc">
+                  엣지를 지나 그래프의 노드를 탐험해봅시다.
+                </p>
+                <dl class="card-label-group">
+                  <div class="card-label-item">
+                    <dt>출제빈도</dt>
+                    <dd>높음</dd>
+                  </div>
+                  <div class="card-label-item">
+                    <dt>평균 점수</dt>
+                    <dd>낮음</dd>
+                  </div>
+                  <div class="card-label-item">
+                    <dt>문제 세트</dt>
+                    <dd>2 / 3</dd>
+                  </div>
+                </dl>
+              </a>
+            </section>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-menu-wrap">
+        <ul class="footer-menu">
+          <li class="footer-menu-title">서비스</li>
+          <li class="footer-menu-item"><a></a>개발자용 프로그래머스</li>
+          <li class="footer-menu-item"><a></a>기업용 프로그래머스</li>
+          <li class="footer-menu-item"><a></a>프로그래머스 스쿨</li>
+        </ul>
+        <ul class="footer-menu">
+          <li class="footer-menu-title">약관</li>
+          <li class="footer-menu-item"><a>개인정보 처리방침</a></li>
+          <li class="footer-menu-item"><a>이용약관</a></li>
+        </ul>
+        <ul class="footer-menu">
+          <li class="footer-menu-title">문의</li>
+          <li class="footer-menu-item"><a>FAQ 문의</a></li>
+          <li class="footer-menu-item"><a>교육 결제, 환불 관련 문의</a></li>
+          <li class="footer-menu-item"><a>코딩 테스트(응시자) 문의</a></li>
+        </ul>
+        <ul class="footer-menu">
+          <li class="footer-menu-title">고객센터</li>
+          <li class="footer-menu-item">기업 서비스 : 02-539-1886</li>
+          <li class="footer-menu-item">교육 내용 관련 문의 : 02-539-1885</li>
+          <li class="footer-menu-item">
+            제휴 및 서비스 운영, 기타 문의: 02-539-1882
+          </li>
+          <li class="footer-menu-item operation-time">
+            문의하기 운영시간 : 오전 9시 ~ 오후 6시 (주말 및 공휴일 휴무) <br />
+            점심시간 : 오후 12시 ~ 오후 1시
+          </li>
+        </ul>
+      </div>
+      <div class="footer-address">
+        <a class="link-brand" href="#">2021 프로그래머스</a>
+        <p>
+          (주)그렙 / 공동대표 이확영, 임성수 / 서울특별시 강남구 테헤란로 151,
+          723호(역삼동, 역삼하이츠빌딩) / 사업자등록번호 220-88-75699 /
+          통신판매업신고 제 2014-서울강남-03241호 / 직업정보제공사업 신고번호
+          J1200020180027 / 유료직업소개사업 등록번호
+          (국내)제2019-3220237-14-5-00020호
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
