@@ -4,7 +4,164 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>인사이터 - Corporation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="header-logo">
+        <h1>
+          <img src="./assets/logo.png" alt="insighter logo" />
+          <a href="#">Insighter</a>
+        </h1>
+        <button class="toggle-btn" type="button"></button>
+      </div>
+      <ul class="header-nav">
+        <li class="nav-item">
+          <a href="#">회사소개</a>
+        </li>
+        <li class="nav-item">
+          <a href="#">서비스</a>
+        </li>
+        <li class="nav-item">
+          <a href="#">솔루션</a>
+        </li>
+        <li class="nav-item">
+          <a href="#">인재채용</a>
+        </li>
+        <li class="nav-item">
+          <a href="#">고객지원</a>
+        </li>
+      </ul>
+    </header>
+    <div class="main">
+      <div class="banner">
+        <button id="prev" aria-label="이전" type="button"></button>
+        <button id="next" aria-label="다음" type="button"></button>
+      </div>
+
+      <section class="introduction">
+        <h2 class="introduction-title">우리는 답을 찾아가고 있습니다.</h2>
+        <p class="introduction-desc">
+          에듀테크로 학습자의 잠재력을 발휘할 수 있을까? <br />
+          빅데이터로 실용적인 인사이트를 도출할 수 있을까? <br />
+          인공지능을 통해 세상을 혁신할 수 있을까?
+        </p>
+        <ul class="introduction-card">
+          <li class="card-item">
+            <img
+              src="https://insighter-web-asset.s3.ap-northeast-2.amazonaws.com/img/main/edutech.svg"
+              alt="Edu tech"
+            />
+            <h3 class="card-title">에듀테크</h3>
+            <p class="card-desc">
+              기술과 교육의 융합으로<br />
+              학습자의 잠재력 발휘
+            </p>
+          </li>
+          <li class="detail-item">
+            <img
+              src="https://insighter-web-asset.s3.ap-northeast-2.amazonaws.com/img/main/bigdata.svg"
+              alt="Big data"
+            />
+            <h3 class="card-title">빅데이터</h3>
+            <p class="card-desc">
+              빅데이터를 활용한<br />
+              실용적 인사이트 도출
+            </p>
+          </li>
+          <li class="detail-item">
+            <img
+              src="https://insighter-web-asset.s3.ap-northeast-2.amazonaws.com/img/main/ai.svg"
+              alt="AI"
+            />
+            <h3 class="card-title">인공지능</h3>
+            <p class="card-desc">
+              인공지능을 통한<br />
+              세상의 혁신
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="partner">
+        <h2 class="patner-title">주요 협력사</h2>
+        <p class="patner-desc">
+          인사이터는 다양한 기업들과 협력하여 개인과 파트너의 성공을 위한 가치를
+          만들어 갑니다.
+        </p>
+        <!-- add img -->
+      </section>
+      <section class="contact">
+        <h2 class="contact-title" lang="en">contact us</h2>
+        <strong>본사</strong>
+        <dl class="contact-list">
+          <div class="list-item">
+            <dt>주소</dt>
+            <dd>서울특별시 마포구 매봉산로 37 DMC 산학협력연구센터 601</dd>
+          </div>
+          <div class="list-item">
+            <dt>전화</dt>
+            <dd>070-7548-9182</dd>
+          </div>
+          <div class="list-item">
+            <dt>이메일</dt>
+            <dd>contacts@insighter.co.kr</dd>
+          </div>
+        </dl>
+      </section>
+    </div>
+    <footer>
+      <div class="footer-contact">
+        <h2 class="contact-title">(주) 인사이트</h2>
+        <dl class="footer-detail">
+          <dt>주소</dt>
+          <dd>서울특별시 마포구 매봉산로 37 DMC 산학협력연구센터 601</dd>
+          <dt>전화</dt>
+          <dd>070-7548-9182</dd>
+          <dt>이메일</dt>
+          <dd>contacts@insighter.co.kr</dd>
+        </dl>
+      </div>
+      <div class="footer-service">
+        <h2 class="service-title">서비스 바로가기</h2>
+        <ul class="service-item">
+          <li>
+            <a href="#"> 워드캐스트 </a>
+          </li>
+          <li>
+            <a href="#">소셜 빅데이터 컨설팅</a>
+          </li>
+          <li>
+            <a href="#">데이터 바우처 지원 사업</a>
+          </li>
+          <li>
+            <a href="#">수출 지언 기반 활용 사업</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-solution">
+        <h2 class="solution-title">솔루션 바로가기</h2>
+        <ul class="solution-item">
+          <li>
+            <a href="#"> 맞춤형 추천 및 개인화 </a>
+          </li>
+          <li>
+            <a href="#">이미지 처리 및 분석</a>
+          </li>
+          <li>
+            <a href="#">텍스트 처리 및 분석</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <span class="copyright">
+      Copyright ⓒ 2016-2020 Insighter Corp. All Rights Reserved.
+    </span>
+  </body>
 </html>
