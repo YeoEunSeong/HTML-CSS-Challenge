@@ -3,3 +3,58 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: "Nanum Gothic", sans-serif;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Mobile */
+/* header */
+header {
+  height: 68px;
+  padding: 0 24px;
+  border-bottom: 1px solid rgb(226, 232, 240);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo img {
+  display: block;
+  width: 24px;
+}
+
+.logo-title a {
+  display: block;
+  padding-top: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.toggle-btn {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-image: url("./assets/header_menu.svg");
+  background-size: contain;
+}
+
+.header-nav {
+  display: none;
+}
